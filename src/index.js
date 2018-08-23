@@ -36,6 +36,7 @@ class App extends Component {
 
     return (
       <div>
+        <img src="reactTube.png" alt="" className="logo" />
         <SearchBar onSearchTermChange={term => videoSearch(term)} />
         <VideoDetail video={this.state.selectedVideo} />
         <VideoList

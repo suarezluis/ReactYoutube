@@ -1,6 +1,11 @@
+.logo {
+  width: 30%;
+  margin: 10px 35%;
+}
+
 .search-bar input {
   width: 75%;
-  margin: auto;
+  margin: 30px 12.5%;
 }
 
 .video-item img {
